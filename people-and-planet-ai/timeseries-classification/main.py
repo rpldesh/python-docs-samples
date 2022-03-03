@@ -70,7 +70,7 @@ def run_create_datasets() -> dict:
             "region": args.get("region", REGION),
             "temp_location": args.get("temp_location", TEMP_DIR),
             "experiments": ["use_runner_v2"],
-            "subnetwork": "https://www.googleapis.com/compute/v1/projects/gto-r-and-d-204798/regions/us-central1/subnetworks/internalsubnet1"
+            "subnetwork": "https://www.googleapis.com/compute/v1/projects/gto-r-and-d-204798/regions/us-central1/subnetworks/internalsubnet1",
             "network": "gtovpc01"
         }
         params = {
